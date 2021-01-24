@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Setting The Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- connect with CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Image search</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header-links">
+            <a href="index.html">Google Search</a>
+            <!-- takes user back to google search -->
+            <a href="advanced.html">Google Advanced Search</a>
+        </div>
+    </div>
+    <!-- End of Header -->
+
+    <!-- Settimg Search Container Start -->
+    <div class="searchContainer">
+        
+        <img src="googlelogo.png" alt="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" />
+        <!-- <span style="color:blue;  position: relative;left: 110px;top: -18px;">images</span> -->
+        <div class="logoSubtext">
+            <span>images</span>
+        </div>
+        <form action="https://images.google.com/images">
+                
+    <div class="searchField">
+        <!-- Scalable Vector for search -->
+        <svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke="#808080" stroke-linecap="round" stroke-linejoin="round"><circle cx="8.5" cy="8.5" r="5" /><path d="m17.571 17.5-5.571-5.5" /></g></svg>
+        <!-- name which turns into a query  -->
+        <input type="text" name="q">
+        
+
+         </div>
+        <div class="imageSearch">
+         <input type="submit" value="Image Search"/>
+        </div>
+        </div>
+            <input type="hidden" name="tbm" value="isch" />
+        </form> 
+        <!-- end of form -->
+
+    </div>
+    
+    <!-- end of search container -->
+</body>
+</html>

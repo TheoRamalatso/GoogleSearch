@@ -1,0 +1,188 @@
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  /* Align the search container in the center of the viewport */
+  justify-content: center;
+  align-items: center;
+  height: 80%; 
+  /* height of the seach container will be located at .8x100 */
+}
+
+.searchContainer .searchField {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  border-radius: 600px;
+  border: 1px solid #b8b1b1;
+  box-shadow:0 0 10px -4px #888888;
+  align-items: center;
+  margin: 11px;
+  padding-left: 11px;
+  /* search icon at the 11px */
+
+}
+
+ /* within the search field  */
+.searchContainer .searchField input {
+  border: none;
+  border-radius: 22px;
+}
+.logoSubtext {
+  color: #4285f4;
+  position: relative;
+  left: 110px;
+  top: -18px;
+}
+
+
+
+body {
+    margin: 0px;
+    height: 95vh;
+    font-family: Arial,'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  }
+  
+  input {
+    font-size: 16px;
+    width: 300px;
+    padding: 13px 0;
+    /* Parent selector = & */
+  }
+  input:focus {
+    outline: none;
+  }
+  input[type=text] {
+    width: 600px;
+    /* matchess the width of a searchbar */
+    color: #464646;
+    margin: 0 0 0 7px;
+  }
+  input[type=submit] {
+    position: relative; 
+    left: 100px;
+    background-color:#F8F9FA ;
+    font-size: 14px;
+    width: 185px;
+    /* Remove border */
+     border-width: 0px;
+    border-radius: 5px; 
+   margin: 12px;
+    /* gab of 11px */
+  }
+  input[type=submit]:hover {
+     /* box-shadow when hovering button */
+    box-shadow: 0px 0px 2px rgba(73, 72, 72, 0.8);
+  }
+  .imageSearch{
+    position: relative;
+    left: 20%;
+  
+      }
+  input.blue-button {
+    background-color: dodgerblue;
+    color: white;
+    font-size: smaller;
+    max-width: 200px;
+    border-radius: 0px;
+    border: 1px solid #156bbd;
+    float: right;
+    padding: 10px 2px;
+    margin: 0;
+  }
+  
+  .header, .header-links, .headerAdvancedLogo, .headerAdvanced {
+    display: flex;
+    align-items: center;
+  }
+  .header a, .header-links a, .headerAdvancedLogo a, .headerAdvanced a {
+    color: black;
+    padding: 10px;
+    
+  }
+  .headerAdvanced {
+    background-color: #f1f1f1;
+    height: 50px;
+  }
+  .headerAdvancedLogo {
+    padding: 10px;
+  }
+  .headerAdvancedLogo img {
+    height: 30px;
+  }
+  .header-links {
+    margin-left: auto;
+  }
+  
+  .appbar {
+    margin: 30px 10px;
+  }
+  .appbar label {
+    color: #d93025;
+    font-size: 20px;
+    margin: 50px 30px;
+  }
+  .mainLabel{
+    font-size:12px;
+    text-size-adjust: 12px;
+
+  }
+  .bound{
+    border-bottom: solid 1px #F1F1F1;
+  }
+  
+
+  .advancedSearchContainer {
+    margin: 50px 40px;
+  }
+  .advancedSearchContainer label {
+    display: inline-block;
+    width: 16%;
+    font-size: 14px;
+  }
+  .advancedSearchContainer .form-group {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 0;
+  }
+  .advancedSearchContainer .form-group label {
+    width: 16%;
+    font-size: 14px;
+  }
+  .advancedSearchContainer .form-group input[type=text] {
+    width: 49%;
+    padding: 2px 0;
+  }
+  .advancedSearchContainer .form-group {
+    
+    display: flex;
+    align-items: center;
+    
+  }
+  .rightAlign{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+
+  }
+  .advancedSearchContainer .form-group .procedure {
+    font-size: 11px;
+    width: 30%;
+    margin-left: 1%;
+  }
+  .advancedSearchContainer .form-group .procedure .monospace {
+    font-family: monospace;
+  }
+  .advancedSearchContainer .whitespace {
+    display: inline-block;
+    width: 50%;
+  }
+  .separator-line {
+    border-bottom: solid 1px #d6d6d6;
+  }
+  .size{
+
+    size: 12px;
+  }
+  
+  /*# sourceMappingURL=styles.css.map */
